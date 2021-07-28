@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca domowa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/bag.svg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="body">
+    <section class="container loadClick mb-5">
+        <button type="button" class="btn loadDocument font-weight-bold">Wyświetl wszystkie tabele</button>
+    </section>
+
+    <section class="container">
+        <h2>1. Wszystkie samochody</h2>
+        <div id="allRecords"></div>
+    </section>
+
+    <section class="container mt-5">
+        <h2>2. Samochody gdzie Isofix === TRUE</h2>
+        <div id="isofixTrue"></div>
+    </section>
+
+    <section class="container mt-5">
+        <h2>3. Posortowane samochody wg Marki</h2>
+        <div id="brandSort"></div>
+    </section>
+
+    <section class="container mt-5 mb-5">
+        <h2>4. Samochody gdzie Isofix === FALSE, posortowane wg przebiegu od najmniejszego do największego</h2>
+        <div id="sortMileageAndIsofixFalse"></div>
+    </section>
+    <footer class="d-flex justify-content-center align-items-center footer">Marta Kulig - bialka104b@interia.pl - 667679667</footer>
+    <div id="fixed" class="d-none">
+        <a href="#body"><i class="uis uis-arrow-circle-up"></i></a>
+    </div>
+
+    <script src="./index.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).bind('scroll', function () {
+                var num = 0; //number of pixels before modifying styles
+                if ($(window).scrollTop() > num) {
+                    $('#fixed').removeClass('d-none');
+                    $('#fixed').addClass('d-block');
+                } else {
+                    $('#fixed').removeClass('d-block');
+                    $('#fixed').addClass('d-none');
+                }
+            })
+        });
+    </script>
+</body>
+</html>

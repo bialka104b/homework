@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1.4em;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+}
+
+body {
+  background-image: url("../images/blue-snow/blue-snow/blue-snow.png");
+  font-family: "Releway", sans-serif;
+  padding: 50px 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: #1a504e;
+}
+
+section.loadClick {
+  width: auto;
+  margin-top: 50px;
+}
+
+section.loadClick .loadDocument {
+  width: 300px;
+  background-color: lightseagreen;
+  color: white;
+  font-family: "Releway", sans-serif;
+  -webkit-transition: 0.7s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+}
+
+section.loadClick .loadDocument:hover {
+  background-color: #1a504e;
+  -webkit-transition: 0.7s ease-in-out;
+  -o-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+}
+
+#allRecords,
+#isofixTrue,
+#brandSort,
+#sortMileageAndIsofixFalse {
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 4px dotted white;
+}
+
+.font-weight-bold {
+  font-family: "lobster", cursive;
+  font-size: 1.3rem;
+  color: #1a504e;
+}
+
+#fixed {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 60px;
+  right: 15px;
+}
+
+#fixed i::before {
+  font-size: 50px;
+  height: 100%;
+  width: 100%;
+  color: #1a504e;
+}
+
+.footer {
+  color: white;
+  background-color: #1a504e;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

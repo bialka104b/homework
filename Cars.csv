@@ -1,0 +1,23 @@
+Brand,Model,Year of production,Mileage,Isofix
+Alfa Romeo,156,1998,600 000,TRUE
+Chrysler,Voyager,2007,342 121,FALSE
+Smart,Cabrio,2005,422122,TRUE
+Fiat,500,2001 unkown,121333,FALSE
+Chrysler,Voyager,2005,421 325,FALSE
+Smart,Liftback,2015,534531,TRUE
+Renault,Clio,1998,12234 value,null
+Mitsubishi,3000GT,2008,515223,null
+Chrysler,Voyager,2005,300 214,FALSE
+Smart,Liftback,2016,631121,TRUE
+Chrysler,Voyager,2006,421 554,FALSE
+Mitsubishi,380 db,2007,112554,FALSE
+Fiat,Panda,212007,234212,TRUE
+Fiat,Panda,,335112 ####,null
+Fiat,500,,234000,TRUE
+Volkswagen,Golf,2001,632532,FALSE
+Smart,Cabrio,2004,300522,TRUE
+Fiat,126p,1999,125235,TRUE
+Smart,Cabrio,2004,234732,TRUE
+Fiat,500,1995,88323,null
+Smart,Liftback,2014,334122,TRUE
+Chrysler,Voyager,2008,209 321,FALSE
